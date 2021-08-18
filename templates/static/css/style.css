@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  background: rgb(170, 160, 16);
+  background: linear-gradient(
+    90deg,
+    rgb(82, 219, 105) 0%,
+    rgb(88, 146, 21) 100%
+  );
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.container {
+  width: 100%;
+  max-width: 1300px;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.form-container {
+  border-radius: 3px;
+  background-color: white;
+  box-shadow: 0px 1px 7px 3px #7aa3e2;
+  width: 90%;
+  max-width: 400px;
+  height: 380px;
+  padding: 25px 10px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.form-container div {
+  margin: 4px 0;
+}
+
+.form-container div p {
+  margin: 4px 0;
+}
+
+.form-container input[type="text"],
+input[type="password"] {
+  width: 95%;
+  font-size: 15px;
+  height: 28px;
+  border: 1px solid #c7c7c7;
+  outline: 0;
+}
+
+.buttons-actions {
+  background-color: #16da67;
+  color: #efefef;
+  font-size: 14px;
+  border: none;
+  padding: 9px 30px;
+  margin: 25px auto;
+  outline: 0;
+  cursor: pointer;
+  transition: 0.3s all ease;
+}
+
+.buttons-actions:hover {
+  background-color: #42c41b;
+}
+
+.notes-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column-reverse;
+  background-color: white;
+  padding: 7px;
+  width: 95%;
+  max-width: 450px;
+  border-radius: 10px;
+  box-shadow: 0px 1px 5px #d2d2d2;
+  overflow-y: auto;
+}
+
+.notes-container h2 {
+  text-align: center;
+}
+
+.notes-container .note {
+  background-color: white;
+  padding: 4px;
+  max-width: 450px;
+  border-bottom: 2px solid #a0a0a0;
+}
+
+.notes-container .note h3,
+.notes-container .note p {
+  margin: 5px 0;
+}

@@ -1,4 +1,7 @@
-bottle==0.12.13
+bottle==0.12.19
+bottle-cors==0.1.5
 marshmallow==2.13.5
-peewee==2.10.1
-PyJWT==1.5.2
+peewee==3.14.1
+PyJWT==2.0.1
+passlib==1.7.4
+python-dotenv==0.15.0
