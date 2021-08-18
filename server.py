@@ -4,7 +4,6 @@ from bottle import request, response
 from truckpad.bottle.cors import CorsPlugin, enable_cors
 
 from models import Todo, Users
-from schemas import TodoSchema
 from dotenv import load_dotenv
 
 import json
